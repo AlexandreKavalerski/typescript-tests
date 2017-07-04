@@ -1,6 +1,10 @@
 import { Spacecraft, ContainerShip } from './base-ships'
 import { MilleniumFalcon } from './starfighters'
 
+import * as _ from 'lodash' //namespace import
+
+console.log(_.pad("Typescript Examples", 40, "="))
+
 let ship = new Spacecraft('hyperdrive')
 ship.jumpIntoHyperspace()
 
